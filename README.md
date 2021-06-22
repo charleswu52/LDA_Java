@@ -1,5 +1,5 @@
 # LDA_Java
-##About
+## About
 
 LevenshteinAutomaton is a fast and comprehensive Java library capable of performing automaton and non-automaton 
 based Damerau-Levenshtein distance determination and neighbor calculations. The collection of related utilities affords developers 
@@ -17,7 +17,7 @@ to add homogeneous, functionality-extending code with ease.
 
 The code has also been fully tested for correct functionality and performance.
 
-##How to use
+## How to use
 
     //Determine the edit distance between two words
     int editDistance = LevenshteinAutomaton.computeEditDistance("tree", "trees"); //1
@@ -39,7 +39,7 @@ The code has also been fully tested for correct functionality and performance.
 	//Detemine via automaton traversal all of the Strings in the our dictionary that are within a edit distance  2 from "tree"
 	LinkedList<String> ldNeighborsLinkedList = LevenshteinAutomaton.iterativeFuzzySearch(2, "tree", myMDAG); //"tree", "trees"
 	
-##Repo contents
+## Repo contents
 
 - **src**: Contains the source code for unit & integration tests as well as modified LevensheinAutomaton code with exclusive debugging methods and permissive access modifiers on existing methods to facilitate testing	
 - **dist**: Contains the test suite, test library, and MDAG jars
@@ -54,7 +54,7 @@ Informally, It'd be great to be notified of any derivatives or forks (or even be
 More informally, it'd **really** be great to be notified any uses in open-source, educational, or (if granted a license) commercial contexts.
 Help me build my portfolio, if you found the library helpful it only takes an e-mail!
 
-##References
+## References
 
 - Fast String Correction with Levenshtein-Automata (2002) by Klaus Schulz , Stoyan Mihov
   (http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.16.652)
